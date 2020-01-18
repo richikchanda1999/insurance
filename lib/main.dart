@@ -3,7 +3,7 @@ import 'package:insurance/homepage.dart';
 
 import 'Questionnaire.dart';
 
-void main() => runApp(Questionnaire());
+void main() => runApp(HomePage());
 
 class Main extends StatelessWidget {
   @override

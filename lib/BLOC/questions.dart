@@ -1,9 +1,11 @@
 
+import 'package:flutter/cupertino.dart';
+
 List<String> Question=[
-"What is your age?,"
+"What is your age?",
 "What symptoms do you have?",
 "Any medical issues",
-"How often do you have discomfort? During what activities?",
+"How often do you have discomfort, during activities?",
 "What relieves your discomfort?",
 "What other symptoms happen when you feel discomfort?",
 "Has anyone in your family ever had heart problems?",
