@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:insurance/homepage.dart';
 
-void main() => runApp(Main());
+void main() => runApp(homePage());
 
 class Main extends StatelessWidget {
   @override
@@ -10,3 +11,4 @@ class Main extends StatelessWidget {
     );
   }
 }
+
