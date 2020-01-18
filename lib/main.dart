@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:insurance/homepage.dart';
 
-void main() => runApp(homePage());
+import 'Questionnaire.dart';
+
+void main() => runApp(Questionnaire());
 
 class Main extends StatelessWidget {
   @override
@@ -11,4 +13,6 @@ class Main extends StatelessWidget {
     );
   }
 }
+
+
 
