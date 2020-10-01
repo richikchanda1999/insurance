@@ -18,7 +18,6 @@ class MyStackWidget extends StatelessWidget {
         this.end,
         this.bottom,
         this.child});
-  @override
   Widget build(BuildContext context) {
     return Positioned.directional(
         textDirection: TextDirection.ltr,
@@ -36,7 +35,6 @@ class MyStackWidget extends StatelessWidget {
 }
 
 class MyPath extends CustomClipper<Path> {
-  @override
   Path getClip(Size size) {
     var p = Path();
     p.lineTo(0, size.height * 0.65);

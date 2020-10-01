@@ -5,6 +5,10 @@ import 'package:insurance/support.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 
+class homePage extends StatelessWidget {
+
+
+
 class HomePage extends StatelessWidget {
   @override
 
@@ -52,6 +56,7 @@ class TeacherHomePageScaffold extends StatelessWidget {
                   child: MyButton(
                     path: "assets/undraw_online_test_gba7.svg",
                     label: "quiz",
+
                     onTap: () {
                       Navigator.of(context).push(MaterialPageRoute(builder: (_) => Questionnaire()));
                     },
