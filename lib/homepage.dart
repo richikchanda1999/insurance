@@ -3,9 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:insurance/support.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-
 class homePage extends StatelessWidget {
-  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -50,15 +48,6 @@ class TeacherHomePageScaffold extends StatelessWidget {
                   child: MyButton(
                     path: "assets/undraw_online_test_gba7.svg",
                     label: "quiz",
-//                    onTap: () {
-//                      Navigator.push(
-//                          context,
-//                          PageTransition(
-//                              duration: Duration(milliseconds: 800),
-//                              type: PageTransitionType.scale,
-//                              child: SearchBooks()));
-//                    },
-                  )),
               MyStackWidget(
                 top: 440,
                 start: 80,
