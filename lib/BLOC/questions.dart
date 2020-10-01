@@ -18,11 +18,17 @@ List<String> Question=[
 "Are you loving the work you do?",
 "How much water do you drink every day?",
 
+
 "Any heridity disease?",
 "Are you indulged in any kind of addiction?",
 ];
 
 "Any heridity disease",
+"Are you indulged in any kind of addiction?",
+];
+
+
+"Any heridity disease?",
 "Are you indulged in any kind of addiction?",
 ];
 
